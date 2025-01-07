@@ -1,0 +1,39 @@
+body {
+    background-color: #2C2F33; /* Tamna siva boja */
+    color: #FFFFFF; /* Bela boja za tekst */
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background-color: #7289DA; /* Plava boja */
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #23272A; /* Tamna boja za navigaciju */
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #FFFFFF; /* Bela boja za linkove */
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    background-color: #99AAB5; /* Svetlija siva boja za glavni sadržaj */
+}
+
+footer {
+    background-color: #23272A; /* Tamna boja za footer */
+    padding: 10px;
+    text-align: center;
+    color: #FFFFFF;
+}
