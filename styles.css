@@ -1,15 +1,18 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-image: url('textures/grass.png');
+    background-size: cover;
     margin: 0;
     padding: 0;
+    color: #FFFFFF;
 }
 
 header {
-    background-color: #333;
+    background-image: url('textures/dirt.png');
     color: white;
     padding: 1rem;
     text-align: center;
+    background-size: cover;
 }
 
 nav {
@@ -31,14 +34,16 @@ nav a:hover {
 
 main {
     padding: 2rem;
+    background-color: rgba(0, 0, 0, 0.7); /* Poluprovidna crna boja za bolju čitljivost teksta */
 }
 
 footer {
-    background-color: #333;
+    background-image: url('textures/dirt.png');
     color: white;
     text-align: center;
     padding: 1rem;
     position: fixed;
     width: 100%;
     bottom: 0;
+    background-size: cover;
 }
