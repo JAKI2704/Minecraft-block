@@ -1,39 +1,44 @@
 body {
-    background-color: #2C2F33; /* Tamna siva boja */
-    color: #FFFFFF; /* Bela boja za tekst */
-    font-family: 'Arial', sans-serif;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
 }
 
 header {
-    background-color: #7289DA; /* Plava boja */
-    padding: 20px;
+    background-color: #333;
+    color: white;
+    padding: 1rem;
     text-align: center;
 }
 
 nav {
-    background-color: #23272A; /* Tamna boja za navigaciju */
-    padding: 10px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-color: #444;
 }
 
 nav a {
-    color: #FFFFFF; /* Bela boja za linkove */
-    margin: 0 10px;
+    color: white;
+    padding: 1rem;
     text-decoration: none;
+    text-align: center;
 }
 
 nav a:hover {
-    text-decoration: underline;
+    background-color: #555;
 }
 
 main {
-    padding: 20px;
-    background-color: #99AAB5; /* Svetlija siva boja za glavni sadržaj */
+    padding: 2rem;
 }
 
 footer {
-    background-color: #23272A; /* Tamna boja za footer */
-    padding: 10px;
+    background-color: #333;
+    color: white;
     text-align: center;
-    color: #FFFFFF;
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
